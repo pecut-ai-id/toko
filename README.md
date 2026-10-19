@@ -9,10 +9,38 @@ Dibangun dengan Laravel 13, MySQL 8, Blade, dan Tailwind CSS. Satu
 instalasi melayani banyak bisnis (multi-tenant) dengan peran
 owner/admin/staff yang diperiksa di sisi server.
 
-<!-- Tangkapan layar: setelah ada gambar, aktifkan baris berikut.
+## Tangkapan layar
+
+Data pada tangkapan layar adalah data demo, bukan data pelanggan.
+
+### Dashboard
+
+Ringkasan penjualan bulan ini, piutang, utang, stok menipis, dan draf
+pembelian yang menunggu penerimaan.
+
 ![Dashboard TokoFlow](docs/images/dashboard.png)
-![Laporan penjualan](docs/images/laporan.png)
--->
+
+### Penjualan dan pembayaran
+
+Daftar penjualan dengan status, jumlah dibayar, dan sisa piutang:
+
+![Daftar penjualan TokoFlow](docs/images/penjualan.png)
+
+Detail penjualan menyimpan snapshot harga pokok, menampilkan riwayat
+pembayaran, dan mencatat setiap pergerakan stok yang ditimbulkannya:
+
+![Detail penjualan TokoFlow](docs/images/penjualan-detail.png)
+
+### Laporan
+
+Omzet, harga pokok penjualan, dan margin kotor per produk serta per hari:
+
+![Laporan penjualan TokoFlow](docs/images/laporan-penjualan.png)
+
+Nilai persediaan, produk yang stoknya menipis, dan riwayat pergerakan
+stok beserta saldo berjalannya:
+
+![Laporan stok TokoFlow](docs/images/laporan-stok.png)
 
 ## Fitur
 
